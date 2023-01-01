@@ -49,8 +49,8 @@
     border-radius: 8rem;
 }
 .sizeVariants>div:hover{
- background-color: var(--themeRed);
- color: white;
+ /* background-color: var(--themeRed); */
+ /* color: white; */
  cursor: pointer;
  transform: scale(1.1);
 }
@@ -69,4 +69,10 @@
     font-weight: normal;
     padding: 0.5rem 1rem;
     font-size: 1rem;
+}
+.selected{
+    background-color: var(--themeRed);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
 }
