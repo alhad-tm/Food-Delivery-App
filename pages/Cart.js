@@ -95,7 +95,7 @@ export default function Cart(){
          <OrderModal
             opened={PaymentMethod===0}
             setOpened={setPaymentMethod}
-            paymentMethod={PaymentMethod}
+            PaymentMethod={PaymentMethod}
          />
         </Layout>
     )

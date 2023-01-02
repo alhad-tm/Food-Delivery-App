@@ -47,9 +47,17 @@
     width: 6rem;
 }
 /* actually for pending, but i have problem with payment method */
-.pending, .completed{ 
+.pending{ 
     width: max-content;
     background-color: orange; 
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    color: white;
+}
+.completed{
+    width: max-content;
+    background-color: rgb(37, 181, 49); 
     padding: 0.5rem;
     font-size: 0.8rem;
     border-radius: 1rem;
