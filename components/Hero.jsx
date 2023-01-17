@@ -1,7 +1,7 @@
 import Image from "next/image"
 import css from "../styles/Hero.module.css"
-import Cherry from "../assets/Cherry.png"
-import HeroImage from "../assets/HeroImage.png"
+import Cherry from "../assets/s2.png"
+import HeroImage from "../assets/chefmain.png"
 import {UilPhone} from "@iconscout/react-unicons"
 import  Pizza1 from "../assets/p1.jpg"
 export default function Hero() {
@@ -10,8 +10,8 @@ export default function Hero() {
             {/* left section */}
             <div className={css.left}>
             <div className={css.cherrydiv}>
-                <span>More Than Faster</span>
-                <Image src={Cherry} alt="" width={40} height={25}/>
+                <span>Don't Starve, Just Order...&nbsp;</span>
+                <Image src={Cherry} alt="" width={70} height={65}/>
             </div>
             
             <div className={css.heroText}>

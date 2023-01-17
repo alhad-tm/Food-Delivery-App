@@ -39,12 +39,13 @@
     width: 10rem;
     height: 10rem;
 }
+
 .feature>:nth-child(2){
     font-weight: bold;
 }
 .feature>:nth-child(3){
     color: var(--gray);
     word-wrap: break-word;
-    width: 20rem;
+    width: 23rem;
     text-align: center;
 }

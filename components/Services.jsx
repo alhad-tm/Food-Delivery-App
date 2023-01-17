@@ -1,7 +1,7 @@
 import css from "../styles/Services.module.css"
 import Image from "next/image"
 import s1 from "../assets/s1.png"
-import s2 from "../assets/s2.png"
+import s2 from "../assets/pizzadelivery.png"
 import s3 from "../assets/s3.png"
 
 export default function Services() {
@@ -14,31 +14,31 @@ export default function Services() {
         </div>
         {/* services */}
         <div className={css.services}>
-            <div className={css.feature}>
-                <div className={css.ImageWrapper}>
-                    <Image src={s1} alt="" objectFit="cover" layout="intrinsic"/>
-                </div>
-                <span>Easy To Order</span>
-                <span>U Only Need A few steps in ordering </span>
-            </div>
 
-
-            <div className={css.feature}>
+        <div className={css.feature}>
                 <div className={css.ImageWrapper}>
-                    <Image src={s2} alt="" objectFit="cover" layout="intrinsic"/>
+                    <Image  src={s2} alt="" objectFit="cover" />
                 </div>
                 <span>Fast Delivery</span>
-                <span>Delivery tahat is on time even faster </span>
+                <span>Order delivery in just 30 minutes </span>
             </div>
-
 
             <div className={css.feature}>
                 <div className={css.ImageWrapper}>
                     <Image src={s3} alt="" objectFit="cover" layout="intrinsic"/>
                 </div>
                 <span>Order from anywhere</span>
-                <span>Not only fast,also number one i quality </span>
+                <span>Get your food delivered at your doorstep </span>
             </div>
+
+            <div className={css.feature}>
+                <div className={css.ImageWrapper}>
+                    <Image src={s1} alt="" objectFit="cover" layout="intrinsic"/>
+                </div>
+                <span>Easy To Order</span>
+                <span>Just make a call or order through our app </span>
+            </div>
+
 
            
         </div>

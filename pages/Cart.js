@@ -20,7 +20,7 @@ export default function Cart(){
 
     const handleOnDelivery=()=>{
         setPaymentMethod(0);
-        typeof window !=="undefined" && localStorage.setItem('total',total());
+        typeof window !=="undefined" && localStorage.setItem('total',total()); 
     }
 
 
@@ -57,7 +57,7 @@ export default function Cart(){
                                     height={85}/>
                                 </td>
                                 <td>{pizza.name}</td>
-                                <td>{pizza.size===0? "Small" :pizza.selected===1? "Medium" : "Large"}</td>
+                                <td>{pizza.size===0? "Small" :pizza.size===1? "Medium" : "Large"}</td>
                                 <td>{pizza.price}</td>
                                 <td>{pizza.quantity}</td>
                                 <td>{pizza.price*pizza.quantity}</td>
@@ -66,7 +66,7 @@ export default function Cart(){
                             </tr>
                         )
                      })}
-                    </tbody>
+                    </tbody>   
                 </table>
             </div>
 

@@ -13,12 +13,20 @@
     justify-content: center;
     width: fit-content;
     background-color: var(--pink);
+    /* background-color: rgb(255, 255, 255); */
     margin-top: 3rem;
-    padding: 1rem;
+    margin-left: 5rem;
+    padding: 0.6rem;
     border-radius: 2rem;
     font-size: 0.8 rem;
-    color: var(--themeRed);
+    /* color: var(--themeRed); */
+    color: rgb(96, 88, 88);
     font-weight: bold;
+}
+.cherrydiv:hover{
+    cursor: pointer;
+    transform:scale(1.03);
+    color:red;
 }
 .heroText{
     display: flex;
@@ -38,10 +46,13 @@
     position: relative;
 }
 .imageContainer{
-    width: 38rem;
+    width: 32rem;
     position: absolute;
-    top: -5rem;
-    left: -4rem;
+    top: -1rem;
+    left: 6rem;
+}
+.imageContainer:hover{
+    transform: scale(1.1);
 }
 .contact{
     display: flex;
@@ -57,6 +68,7 @@
     background-color: #fff;
     box-shadow: var(--shadow);
     color: var(--themeRed);
+    color: rgb(95, 83, 83);
 }
 .contact>div{
     background: rgb(29, 185, 29);

@@ -12,8 +12,17 @@
     flex:1
 }
 .logo>span{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.5rem;
+    color: rgb(108, 20, 20);
+    /* font-style:inherit; */
+    /* text-transform: uppercase; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo>span:hover{
+    cursor: pointer;
+    font-weight: 1000;
+    color: rgb(240, 22, 6);
 }
 .menu{
     display: flex;

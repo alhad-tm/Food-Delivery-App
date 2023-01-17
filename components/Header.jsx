@@ -18,7 +18,7 @@ export default function Header() {
             {/* logo section */}
             <div className={css.logo}>
             <Image src={Logo} alt="" width={60} height={60}/>
-            <span>Foodie</span>
+            <span>Pizza Bites</span>
             </div>
             {/* menu section */}
             <ul className={css.menu}>

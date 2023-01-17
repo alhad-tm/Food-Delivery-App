@@ -7,6 +7,7 @@ import Spinner from "../../assets/spinner.svg"
 import css from "../../styles/Order.module.css";
 import Image from "next/image";
 import { useEffect } from "react";
+
 export const getServerSideProps = async ({ params }) => {
   const query = `*[_type =='order' && _id == '${params.id}']`;
   const order = await client.fetch(query);
