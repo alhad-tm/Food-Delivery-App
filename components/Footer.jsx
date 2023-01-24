@@ -14,7 +14,7 @@ export default function Footer() {
              <UilInstagram size={40}/> 
             </div>
 
-            <div className={css.logo}>
+            <div id="contact" className={css.logo}>
             <Image src={Logo} alt="" width={60} height={60}/>
             Developed by alhad.
             <span>Foodie</span>

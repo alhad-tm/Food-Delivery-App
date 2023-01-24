@@ -5,6 +5,8 @@ import {UilShoppingBag,UilReceipt} from "@iconscout/react-unicons"
 import { useStore } from "../store/store";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Link as ScrollLink } from "react-scroll";
+
 export default function Header() {
     const[Order,setOrder]=useState("")
 
@@ -24,8 +26,8 @@ export default function Header() {
             <ul className={css.menu}>
             <li>
                 <Link href="../">Home</Link></li>
-            <li>Menu</li>
-            <li>Contact</li>
+            <li><ScrollLink to="menulist" spy={true} smooth={true}>Menu</ScrollLink></li>
+            <li><ScrollLink to="contact" spy={true} smooth={true}>Contact</ScrollLink></li>
             </ul>
             {/* right section */}
            <div className={css.rightSide}>

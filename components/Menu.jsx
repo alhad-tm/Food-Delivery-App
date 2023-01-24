@@ -16,7 +16,7 @@ export default function Menu({ pizzas }) {
         {pizzas.map((pizza, id) => {
           const src = urlFor(pizza.image).url();
           return (
-            <div className={css.pizza} key={id}>
+            <div id="menulist" className={css.pizza} key={id}>
          
          <Link href={`./pizza/${pizza.slug.current}`}>
               <div className={css.ImageWrapper}>
