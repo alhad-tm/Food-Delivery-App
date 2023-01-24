@@ -36,7 +36,7 @@ export default function Services() {
                     <Image src={s1} alt="" objectFit="cover" layout="intrinsic"/>
                 </div>
                 <span>Easy To Order</span>
-                <span>Just make a call or order through our app </span>
+                <span>Just relax at home and order through our app </span>
             </div>
 
 

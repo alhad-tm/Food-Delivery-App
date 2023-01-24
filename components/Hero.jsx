@@ -19,8 +19,7 @@ export default function Hero() {
                 <span>In Delivering</span>
                 <span>Your <span style={{color:"var(--themeRed"}}>Pizza</span> </span>
             </div>
-            <span className={css.smalltext}> Our mission is to fill ur mouth
-             with delicious tasty food with faster delivery 
+            <span className={css.smalltext}> Hungry? You're in the right place. Enjoy the best pizza in the town.
             </span>
             <button className={`btn ${css.btn}`}>Get Started</button>
             </div>
