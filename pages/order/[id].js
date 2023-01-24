@@ -51,7 +51,8 @@ export default function Orders({ order }) {
           </div>
           <div>
             <span>Total</span>
-            <span>$ {order.total}</span>
+           
+            <span><span style={{color:"var(--themeRed)"}}>$</span> {order.total}</span>
           </div>
         </div>
         <div className={css.statusContainer}>
@@ -86,7 +87,8 @@ export default function Orders({ order }) {
                     </div>
                 )}
                   {order.status>2 && (
-                    <span className={css.completed}>Completed</span>
+                    <span className={css.completed}>Completed </span>
+                    
                 )}
             </div>
 

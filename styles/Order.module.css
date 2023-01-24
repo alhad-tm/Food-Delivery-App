@@ -49,17 +49,17 @@
 /* actually for pending, but i have problem with payment method */
 .pending{ 
     width: max-content;
-    background-color: orange; 
-    padding: 0.5rem;
+    background-color: rgb(21, 128, 160); 
+    padding: 0.4rem;
     font-size: 0.8rem;
-    border-radius: 1rem;
+    border-radius: 10rem;
     color: white;
 }
 .completed{
     width: max-content;
-    background-color: rgb(37, 181, 49); 
-    padding: 0.5rem;
+    background-color: rgb(36, 196, 15); 
+    padding: 0.4rem;
     font-size: 0.8rem;
-    border-radius: 1rem;
+    border-radius: 10rem;
     color: white;
 }

@@ -7,9 +7,8 @@ export default function Menu({ pizzas }) {
   return (
     <div className={css.container}>
       <div className={css.heading}>
-        <span>OUR MENU</span>
-        <span>Menu That Always </span>
-        <span>Make U fall in love</span>
+        <span>EXPLORE OUR WIDE VARIETY OF PIZZAS</span>
+        <span>Find favourite and discover new ones </span>
       </div>
 
       <div className={css.menu}>
